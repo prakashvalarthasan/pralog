@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="68" started-at="2021-04-25T16:29:33Z" finished-at="2021-04-25T16:29:33Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="68" started-at="2021-04-25T16:29:33Z" finished-at="2021-04-25T16:29:33Z">
+      <class name="com.testng.Executionflow">
+        <test-method status="PASS" signature="test7()[pri:0, instance:com.testng.Executionflow@71c7db30]" name="test7" is-config="true" duration-ms="21" started-at="2021-04-25T21:59:33Z" finished-at="2021-04-25T21:59:33Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test7 -->
+        <test-method status="PASS" signature="test4()[pri:0, instance:com.testng.Executionflow@71c7db30]" name="test4" is-config="true" duration-ms="2" started-at="2021-04-25T21:59:33Z" finished-at="2021-04-25T21:59:33Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test4 -->
+        <test-method status="PASS" signature="test1()[pri:0, instance:com.testng.Executionflow@71c7db30]" name="test1" is-config="true" duration-ms="1" started-at="2021-04-25T21:59:33Z" finished-at="2021-04-25T21:59:33Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test1 -->
+        <test-method status="PASS" signature="test2()[pri:0, instance:com.testng.Executionflow@71c7db30]" name="test2" is-config="true" duration-ms="3" started-at="2021-04-25T21:59:33Z" finished-at="2021-04-25T21:59:33Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test2 -->
+        <test-method status="PASS" signature="test3()[pri:0, instance:com.testng.Executionflow@71c7db30]" name="test3" duration-ms="8" started-at="2021-04-25T21:59:33Z" finished-at="2021-04-25T21:59:33Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test3 -->
+        <test-method status="PASS" signature="test5()[pri:0, instance:com.testng.Executionflow@71c7db30]" name="test5" is-config="true" duration-ms="4" started-at="2021-04-25T21:59:33Z" finished-at="2021-04-25T21:59:33Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test5 -->
+        <test-method status="PASS" signature="test2()[pri:0, instance:com.testng.Executionflow@71c7db30]" name="test2" is-config="true" duration-ms="1" started-at="2021-04-25T21:59:33Z" finished-at="2021-04-25T21:59:33Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test2 -->
+        <test-method status="PASS" signature="test6()[pri:0, instance:com.testng.Executionflow@71c7db30]" name="test6" duration-ms="2" started-at="2021-04-25T21:59:33Z" finished-at="2021-04-25T21:59:33Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test6 -->
+        <test-method status="PASS" signature="test5()[pri:0, instance:com.testng.Executionflow@71c7db30]" name="test5" is-config="true" duration-ms="2" started-at="2021-04-25T21:59:33Z" finished-at="2021-04-25T21:59:33Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test5 -->
+        <test-method status="PASS" signature="test10()[pri:0, instance:com.testng.Executionflow@71c7db30]" name="test10" is-config="true" duration-ms="0" started-at="2021-04-25T21:59:33Z" finished-at="2021-04-25T21:59:33Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test10 -->
+      </class> <!-- com.testng.Executionflow -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
