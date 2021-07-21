@@ -20,6 +20,14 @@ public class Sample {
 			System.setProperty("webdriver.ie.driver", "C:\\Users\\ACHU\\workspace\\Class\\PralogTestng\\driver\\IEDriverServer.exe");
 			driver = new InternetExplorerDriver();
 		}
+		else {
+			System.setProperty("webdriver.gecko.driver",
+					"C:\\Users\\ACHU\\workspace\\Class\\FacebookAutomation\\driver\\geckodriver.exe");
+			
+
+			driver = new FirefoxDriver();
+		}
+		driver.get("https://www.facebook.com/");
 
 	}
 }

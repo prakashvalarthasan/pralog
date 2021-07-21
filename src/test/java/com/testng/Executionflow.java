@@ -1,6 +1,9 @@
 package com.testng;
 
+import org.testng.annotations.AfterClass;
+import org.testng.annotations.AfterGroups;
 import org.testng.annotations.AfterMethod;
+import org.testng.annotations.AfterSuite;
 import org.testng.annotations.AfterTest;
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.BeforeGroups;
@@ -27,6 +30,8 @@ public class Executionflow {
 		System.out.println("beforegroup");
 
 	}
+	
+	
 
 	@BeforeClass
 	public void test1() {
@@ -53,6 +58,12 @@ public class Executionflow {
 
 	}
 	
+	@AfterGroups
+	public void test9() {
+		System.out.println("aftergroup");
+
+	}
+	
 	@AfterTest
 	public void test10() {
 		System.out.println("Aftertest");
@@ -63,5 +74,16 @@ public class Executionflow {
 		System.out.println("test2");
 
 	}
+	@AfterClass
+	public void test32() {
+		System.out.println("afterclass");
+
+	}
+	@AfterSuite
+	public void test61() {
+		System.out.println("afterSuite");
+
+	}
+	
 
 }

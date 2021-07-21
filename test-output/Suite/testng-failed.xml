@@ -1,9 +1,43 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
-  <test name="Test">
+  <parameter name="browserName" value="ff"/>
+  <test name="ChromeTest">
+    <parameter name="browserName" value="chrome"/>
     <classes>
-      <class name="com.testng.Executionflow"/>
+      <class name="com.testng.Sample"/>
     </classes>
-  </test> <!-- Test -->
+  </test> <!-- ChromeTest -->
+  <test name="ieTest">
+    <parameter name="browserName" value="ie"/>
+    <classes>
+      <class name="com.testng.Sample"/>
+    </classes>
+  </test> <!-- ieTest -->
+  <test name="ffTest">
+    <parameter name="browserName" value="ff"/>
+    <classes>
+      <class name="com.testng.Sample"/>
+    </classes>
+  </test> <!-- ffTest -->
+  <test name="ieTest(failed)">
+    <parameter name="browserName" value="ie"/>
+    <classes>
+      <class name="com.testng.Sample">
+        <methods>
+          <include name="test1" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- com.testng.Sample -->
+    </classes>
+  </test> <!-- ieTest(failed) -->
+  <test name="ffTest(failed)">
+    <parameter name="browserName" value="ff"/>
+    <classes>
+      <class name="com.testng.Sample">
+        <methods>
+          <include name="test1" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- com.testng.Sample -->
+    </classes>
+  </test> <!-- ffTest(failed) -->
 </suite> <!-- Failed suite [Suite] -->
